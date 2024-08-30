@@ -104,8 +104,7 @@ const Dashboard = () => {
                     placeholder="Confirm new password"
                     required
                   ></input>
-
-                  <button className="submit-btnn" type="submit">Submit</button>
+                  <Button  name="Submit"/>
                 </form>
                 </div>
                 
