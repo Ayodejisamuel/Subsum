@@ -3,8 +3,6 @@
     display: flex;
     gap: 32px;
     width: 100%;
-    background-color: purple;
-
  
 }
 .support-div-wrapper {
@@ -29,7 +27,7 @@
     border-radius: 24px;
     gap: 14px;
     border: 1px solid #D7E1F4;
-    background-color: red;
+ 
 }
 
 .icon-div {
@@ -56,7 +54,6 @@ border-radius: 18px ;
      background: #EFF3FB;
      color: #4169E1;
 
-
 }
 
 .imgfaq h3 {
@@ -70,9 +67,6 @@ text-align: left;
 color:#4169E1;
 
 }
-
- 
-
 .frequently p {
     font-family: Inter;
 font-size: 16px;
@@ -90,7 +84,6 @@ font-weight: 600;
    .support-containerr {
 
     width: 90%;
-    background-color: #4169E1;
    }
-    
+
 }

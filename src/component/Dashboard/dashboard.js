@@ -72,7 +72,7 @@ const Dashboard = () => {
                 </button>
               </div>
 
-              <div className="form-container-div">
+              <div className="form-containerr-div">
                 <div className="form-inner-wrapper">
                 <form>
                   <label for="current-password">Current Password</label>
