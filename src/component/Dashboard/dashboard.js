@@ -7,7 +7,6 @@ import copy from "../../Images/copy.png";
 import avatar from "../../Images/avatar.png";
 import notificationIcon from '../../Images/notificationicon.png'
 import userIcon from '../../Images/usericon (1).png';
-import Button from "../Button/button";
 
 const Dashboard = () => {
   return (
@@ -103,7 +102,7 @@ const Dashboard = () => {
                     required
                   ></input>
 
- <Button  name='Submit'/>
+                  <button className="submit-btn" type="submit">Submit</button>
                 </form>
                 </div>
                 
