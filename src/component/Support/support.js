@@ -3,7 +3,7 @@ import "./support.css";
 import Sidebar from "../Sidebar/sidebar";
 import Welcome from "../Welcome/welcome";
 import whatsapp from "../../Images/whatsapp.png";
-import forwardarrow from "../../Images/arrowforward.png";
+import forwardarrow from "../../Images/forward.png";
 import snapchat from "../../Images/snapchat.png";
 import staricons from '../../Images/staricon.png';
 import questions from "../../Images/question.png";
@@ -18,7 +18,7 @@ const Support = () => {
         <div className="welcome-container">
           <Welcome username="Help and Support" />
           <div className="support-containerr">
-            <Welcome />
+   
             <div className="support-div-wrapper">
               <div className="support-div">
                 <div className="icon-div">
