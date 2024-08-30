@@ -1,12 +1,12 @@
 import React from "react";
 import "./dashbboard.css";
- 
 import edit from "../../Images/edit (1).png";
 import copy from "../../Images/copy.png";
 import share from "../../Images/share.png";
 import cashout from "../../Images/cashout.png";
 import creditcard from "../../Images/Credit Card 1.png";
- 
+import notificationIcon from '../../Images/notificationicon.png'
+import userIcon from '../../Images/usericon (1).png';
 import Welcome from "../Welcome/welcome";
 import Sidebar from "../Sidebar/sidebar";
 
@@ -18,7 +18,11 @@ const Dashbboard = () => {
        
 
         <div className="welcome-container">
-          <Welcome username="Welcome, Lawal Wahab" />
+          <Welcome 
+          notificationIcon={notificationIcon} 
+        userIcon={userIcon}
+          showUpgrade={true}  
+          username="Welcome, Lawal Wahab" />
           <div className="cards-div">
             <div className="wallet-div">
               <div className="wallet-balance">
@@ -77,9 +81,9 @@ const Dashbboard = () => {
             </div>
             <div className="credit-card-div">
               <div className="cards-details">
-                <div className="cards">Cards</div>
+                <div className="card">Cards</div>
                 <div>
-                  <h3 className="cards-desc">You Have No Saved Cards</h3>
+                  <h4 className="card-desc">You Have No Saved Cards</h4>
                 </div>
               </div>
               <img

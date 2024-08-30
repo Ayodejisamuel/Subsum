@@ -9,14 +9,24 @@ import staricons from '../../Images/staricon.png';
 import questions from "../../Images/question.png";
 import powericon from '../../Images/powericon.png';
 import phonering from "../../Images/phonering.png";
+import notificationIcon from "../../Images/notificationicon.png";
+import userIcon from "../../Images/usericon (1).png";
+
+
+
 
 const Support = () => {
+  
   return (
     <div className="containerr">
       <Sidebar />
       <div className="login-wrapper">
         <div className="welcome-container">
-          <Welcome username="Help and Support" />
+          <Welcome
+          notificationIcon={notificationIcon}
+          userIcon={userIcon}
+          showUpgrade={true}  
+          username="Help and Support" />
           <div className="support-containerr">
    
             <div className="support-div-wrapper">
@@ -32,6 +42,7 @@ const Support = () => {
                   </div>
                 </div>
               </div>
+
               <div className="support-div">
                 <div className="icon-div">
                   <img src={whatsapp} alt="faq" />
@@ -44,6 +55,7 @@ const Support = () => {
                   </div>
                 </div>
               </div>
+
               <div className="support-div  last">
                 <div className="icon-div">
                   <img src={powericon} alt="faq" />

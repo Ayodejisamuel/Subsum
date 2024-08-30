@@ -5,13 +5,20 @@ import Welcome from "../Welcome/welcome";
 import photo from "../../Images/photo.png";
 import copy from "../../Images/copy.png";
 import avatar from "../../Images/avatar.png";
+import notificationIcon from '../../Images/notificationicon.png'
+import userIcon from '../../Images/usericon (1).png';
+import Button from "../Button/button";
 
 const Dashboard = () => {
   return (
     <div className="containerr">
       <Sidebar />
       <div className="welcome-container">
-        <Welcome username="Welcome, Lawal Wahab "/>
+        <Welcome 
+        notificationIcon={notificationIcon} 
+        userIcon={userIcon}
+        showUpgrade={true}  
+         username="Welcome, Lawal Wahab "/>
 
         <div className="welcome-wrapper">
           <div className="upload-container">
@@ -96,7 +103,7 @@ const Dashboard = () => {
                     required
                   ></input>
 
-                  <button className="submit-btn" type="submit">Submit</button>
+ <Button  name='Submit'/>
                 </form>
                 </div>
                 

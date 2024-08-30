@@ -1,0 +1,19 @@
+.btn-div {
+    width: 170%;
+}
+button {
+    padding: 10px;
+    background-color: #4169E1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 2rem;
+    font-weight: bold;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #27408b;
+  }
+  

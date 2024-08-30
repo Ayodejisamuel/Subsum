@@ -10,7 +10,7 @@ const Transaction = () => {
       <Sidebar />
       <div className="login-wrapper">
         <div className="welcome-container">
-          <Welcome username="Transaction  HIstory" />
+          <Welcome username="Transaction  History" />
 
           </div>
           </div>

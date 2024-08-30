@@ -3,31 +3,32 @@
     display: flex;
     gap: 32px;
     width: 100%;
+    background-color: purple;
  
 }
 .support-div-wrapper {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    flex: 1;
 }
 
 .last {
     margin-top: 32px;
 }
+
 .support-div {
     display: flex;
     align-items: center;
     justify-content: left;
-    width: 331px;
+    /* width: 331px; */
     height:90px;
     padding: 12px;
     gap: 14px;
     border-radius: 24px;
     gap: 14px;
     border: 1px solid #D7E1F4;
- 
-    
-
+    background-color: red;
 }
 
 .icon-div {
@@ -37,16 +38,14 @@ height: 66px;
 padding: 21px ;
 gap: 0px;
 border-radius: 18px ;
- 
-
 }
+
 .imgfaq {
     display: flex;
     align-items: center;
     justify-content: left;
-    margin-top: 1rem;
+    margin-top: .1rem;
     gap:1rem;
-    
 }
 
 .imgfaq a {

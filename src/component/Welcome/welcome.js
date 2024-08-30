@@ -1,7 +1,5 @@
-import React from "react";
-import "./welcome.css";
-import usericon from "../../Images/usericon (1).png";
-import notificationicon from "../../Images/notificationicon.png";
+ import React from "react";
+ import "./welcome.css"; 
 
 const Welcome = (props) => {
   return (
@@ -9,13 +7,19 @@ const Welcome = (props) => {
      
         <div className="welcome">
           <div>
-            <h3>{props.username}</h3>
+            <h3 className="linkup">{props.username}</h3> 
           </div>
           <div className="upgrade">
-          <a href="##">Upgrade To Merchant</a>
-          <img src={notificationicon} alt="dropdown"></img>
-          <img src={usericon} alt="dropdown"></img>
-        </div>
+        {props.showUpgrade ? (
+          <>
+            <a href="##">Upgrade To Merchant</a>
+            <img src={props.notificationIcon} alt="notification" />
+            <img src={props.userIcon} alt="user" />
+          </>
+        ) : (
+          <button>{props.buttonText}</button>
+        )}
+      </div>
         </div>
 
         

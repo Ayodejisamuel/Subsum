@@ -2,9 +2,49 @@
   text-decoration: none;
 }
 
-.welcome-wrapper {
- 
+/* login-css-styles(props) */
+
+* {
+  text-decoration: none;
 }
+
+.welcome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.home-link {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #2B3B5A;
+}
+
+button {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #4169e1;
+  border: none;
+  padding: 7px 27px ;
+  gap: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #365dc1;
+}
+
+/* login css styles end */
+
+ 
 .welcome-wrapper {
   display: flex;
  

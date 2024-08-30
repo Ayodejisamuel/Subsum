@@ -2,6 +2,9 @@ import React from "react";
 import "./airtime.css";
 import Sidebar from "../Sidebar/sidebar";
 import Welcome from "../Welcome/welcome";
+import notificationIcon from '../../Images/notificationicon.png'
+import userIcon from '../../Images/usericon (1).png';
+import Button from "../Button/button";
 
 const Airtime = () => {
   return (
@@ -9,7 +12,11 @@ const Airtime = () => {
       <Sidebar isAirtimeTrue={true} />
       <div className="login-wrapper">
         <div className="welcome-container">
-          <Welcome username="Airtime to Cash" />
+          <Welcome
+            notificationIcon={notificationIcon}
+            userIcon={userIcon}
+            showUpgrade={true}
+            username="Airtime to Cash" />
 
           <div className="airtime-container">
             <div>
@@ -19,7 +26,7 @@ const Airtime = () => {
             </div>
             <div className="airtime-form-container">
               <form className="airtime-form">
-                <h3 className="airtime-header">Airtime to Cash</h3>
+                <h4 className="airtime-header">Airtime to Cash</h4>
                 <div className="form-row">
                   <div className="form-group">
                     <label htmlFor="network">Select Network</label>
@@ -34,7 +41,7 @@ const Airtime = () => {
                   <div className="form-group">
                     <label >Phone Number</label>
                     <input
-                      type="text"
+                      type="number"
                       id="phone-number"
                       name="phone-number"
                       placeholder="09023445823"
@@ -45,7 +52,7 @@ const Airtime = () => {
 
                 <div className="form-group">
                   <label>Amount</label>
-                  <input type="text" placeholder="N5,000" name="amount" required />
+                  <input type="number" placeholder="N5,000" name="amount" required />
                 </div>
 
                 <div className="form-group">
@@ -60,9 +67,7 @@ const Airtime = () => {
                   />
                 </div>
 
-                <button type="submit" className="proceed-btn">
-                  Proceed
-                </button>
+              <Button name="Proceed" />
               </form>
             </div>
           </div>
