@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+}
+
+.containerr {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+ 
+ 
+}
+
+/* .welcome-container {
+    padding: 32px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+
+} */
+
+.welcome-wrapper {
+ 
+ margin-top: 16px;
+    flex: 1;
+    display: flex;
+    gap: 20px;
+    /* width: 90%; */
+}
+
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* gap: 1rem; */
+
+
+}
+
+.upload-div {
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px solid #D7E1F4;
+    background-color: white;
+    /* width: 416px; */
+    /* height: 184px; */
+    text-align: center;
+  
+}
+
+.upload-details {
+    color: #4169E1;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload-details img {
+    color: #4169E1;
+    font-weight: 600;
+    margin-top: px;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+}
+
+.user-details-wrapper {
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px solid #D7E1F4;
+    background-color: white;
+  margin-top: 16px;
+    /* height: 184px; */
+ 
+ 
+}
+.active {
+    color: rgba(45, 174, 50, 1);
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    font-family: Inter;
+    font-size: 16px;
+    margin-top: 1rem;
+    
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: rgba(76, 104, 158, 1);
+    
+}
+
+.edit-details {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color:rgba(65, 105, 225, 1);
+    margin-top: 1rem;   
+}
+
+.dashboard-form  {
+
+     
+    width: 50% ;
+    /* gap: 1rem ; */
+}
+
+
+.button-div {
+    display: flex;
+ /* justify-content: space-between; */
+ /* gap: 10px; */
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    background-color:transparent !important;
+    border: 1px solid rgba(215, 225, 244, 1);
+    margin-bottom: 20px;
+
+    
+}
+
+.button-container {
+    /* border-radius: 1000px; */
+  
+    width: 100%;
+
+}
+
+.form-btn {
+    padding: .6rem;
+    border-radius: 3rem;
+    font-size: 14px;
+    background: rgba(239, 245, 251, 1);
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid rgba(239, 245, 251, 1);
+    color :rgba(60, 81, 124, 1);
+    width: 50%;
+ 
+
+
+    /* height: 40px; */
+    /* font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+line-height: 16.94px;
+text-align: center;
+padding: 1rem;
+height: 40px;
+border-radius: 100px;
+
+
+; */
+}
+
+.form-btnn {
+    padding: .6rem;
+    border-radius: 3rem;
+    font-size: 14px;
+ background-color: white;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid rgba(239, 245, 251, 1);
+    color :rgba(60, 81, 124, 1);
+    width: 50%;
+}
+
+.form-container-div {
+    
+    height:  381px;
+    padding: 24px 0px 0px 0px;
+    /* padding: 10px; */
+    border-radius: 24px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    
+    border: 1px solid rgba(215, 225, 244, 1)
+}
+
+.form-inner-wrapper {
+
+    padding: 32px;
+}
+
+form label {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: rgba(76, 104, 158, 1);
+
+    
+}
+
+form input { 
+padding: 8px ;
+gap: 0px;
+border-radius: 4px ;
+border: 1px solid rgba(215, 225, 244, 1);
+width: 100%;
+margin-bottom: 16px;
+padding: 8px;
+
+
+}
+
+form input::placeholder {
+    font-size: 1rem;
+    color:#96a2c8
+}
+
+form input:focus {
+
+border: 3px solid red;
+border: red;
+
+}
+
+.submit-btn {
+        width: 100%;
+ 
+padding: 17px 50px ;
+margin-top: 10px;
+border-radius: 10px;
+opacity: 0.5px;
+background: rgba(65, 105, 225, 1);
+color:#ffffff;
+border: 1px solid rgba(215, 225, 244, 1)
+
+
+
+}
+
+.submit-btn:hover {
+    background: #4169;
+}

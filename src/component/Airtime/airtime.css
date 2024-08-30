@@ -1,0 +1,154 @@
+.airtime-container {
+    width: 500px;
+    margin: auto;
+    /* margin-top: 16px; */
+    /* height: auto; */
+ 
+    padding-top: 0px;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .airtime-container div {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .airtime-container a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #4169E1;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 100px 0px 0px 0px;
+    transition: all 0.3s ease;
+  }
+  
+  .airtime-container a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 7px;
+    background: #4169E1;
+    border-radius: 100px 0px 0px 0px;
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+
+  .airtime-header {
+ 
+    font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 24.2px;
+text-align: center;
+color: #6882B6;
+margin-bottom: 32px;
+
+  }
+  
+  .airtime-container a:hover::after {
+    width: 145px;
+    opacity: 1;
+    color: #4169E1;
+  }
+  
+  .airtime-form {
+    display: flex;
+    flex-direction: column;
+  
+ 
+  }
+
+  .airtime-form-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    /* padding: 32px; */
+    border: 1px solid #D7E1F4;
+    border-radius: 12px;
+    background: #F7F9FD;
+
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 10px; */
+  }
+  .form-groupp {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+ 
+    width: 100%;
+   
+  }
+
+   input::placeholder, option, select {
+
+    font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+line-height: 16.94px;
+text-align: left;
+color: #6882B6;
+
+
+  }
+  .form-groupp {
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 15px; */
+    width: 50%;
+  }
+
+ 
+  
+  .form-group label {
+  
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.94px;
+text-align: left;
+/* margin-bottom: .3px; */
+
+  }
+  
+ 
+  .form-group input,
+  .form-group select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  
+  .form-group input[type="number"] {
+    width: 100%;
+  }
+  
+  .proceed-btn {
+    padding: 10px;
+    background-color: #4169E1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .proceed-btn:hover {
+    background-color: #27408b;
+  }
+  
