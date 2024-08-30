@@ -86,7 +86,7 @@ const Dashboard = () => {
                     placeholder="Enter current password"
                     required
                   ></input>
-        <Button  name="showMax"/>
+        {/* <Button  name="showMax"/> */}
                   <label for="new-password">New Password</label>
                   <input
                     type="password"
