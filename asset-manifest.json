@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Subsum/static/css/main.6fb43ddc.css",
-    "main.js": "/Subsum/static/js/main.98bfe44f.js",
+    "main.css": "/Subsum/static/css/main.6a12ba98.css",
+    "main.js": "/Subsum/static/js/main.5f834424.js",
     "static/media/Credit Card 1.png": "/Subsum/static/media/Credit Card 1.a6e89efd30a267f6c0d8.png",
     "index.html": "/Subsum/index.html",
-    "main.6fb43ddc.css.map": "/Subsum/static/css/main.6fb43ddc.css.map",
-    "main.98bfe44f.js.map": "/Subsum/static/js/main.98bfe44f.js.map"
+    "main.6a12ba98.css.map": "/Subsum/static/css/main.6a12ba98.css.map",
+    "main.5f834424.js.map": "/Subsum/static/js/main.5f834424.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fb43ddc.css",
-    "static/js/main.98bfe44f.js"
+    "static/css/main.6a12ba98.css",
+    "static/js/main.5f834424.js"
   ]
 }
