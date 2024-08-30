@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+  }
+  
+  .containerr {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+     
+  }
+  
+  .login-wrapper {
+    display: flex;
+    width: 100%;
+  }
+
+   
+.welcome-container {
+    padding: 32px;
+    flex-grow: 1;
+display: flex;
+flex-direction: column;
+/* gap: 20px; */
+ 
+  
+  }
+
+  .welcome-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+
+  .welcome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: #2B3B5A;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .welcome h3 {
+    font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0.02em;
+text-align: left;
+
+  }
+  .upgrade {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    gap: .5rem;
+  }
+
+  .upgrade a {
+
+ 
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color:#4169e1;
+  }
+
+
+
+/*  
+
+
+.container {
+height: max-content;
+width: 100vw;
+ padding: 0;
+ display: flex;
+ margin: 0;
+ list-style-type: none;
+ 
+}
+
+.login-sidebar {
+    height: 100vh;
+    width: 304px;
+    background: #EFF3FB;
+
+}
+
+.subssum-div {
+    padding: 32px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+     margin: auto;
+    gap: .5rem;
+   
+}
+
+.subssum-div span {
+    color:#000080;
+    font-size: 2rem;
+    font-weight: 500;
+    
+}
+
+.dashboard-div {
+    padding: 32px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+ 
+
+}
+
+.dashbtn-div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #4169E1;
+    padding: .5rem ;
+    font-size: 16px;
+    line-height: 28px;
+    border-radius: 16px;  
+    color: #ffffff;  
+    gap: .5rem;
+}
+ 
+.buydiv-container {
+width: 100%;
+margin-top: .5rem;
+color : #4C689E;
+font-size: 16px;
+font-weight: 500;
+}
+
+.buydiv-container:hover {
+
+    background-color: #4169E1;
+    color: white;
+    border-radius: 16px;
+}
+.buydiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 197px;
+    padding: 10px;
+}
+.buydata {
+ width: 197px;
+}
+.flex-div {
+    display: flex;
+}
+.flex-div img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+
+.logout-container {
+
+ padding: 32px;
+ font-size: 16px;
+ color: #4C689E;
+ font-weight: 500;
+
+}
+
+.flex-div span {
+    margin-left: 1rem;
+    font-size: 16px;
+}
+
+
+ */
+.cards-div {
+    /* background-color: #000080; */
+    margin-top: 32px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+
+
+.wallet-balance {
+ 
+ display: flex;
+ padding: 18px;
+ justify-content: space-between;
+ align-items: center;
+ border-radius: 24px;
+border: 2px solid #D7E1F4;
+height: 112px;
+margin-bottom: 16px;
+ 
+ 
+
+
+}
+
+.wallet-balance p {
+ 
+    line-height: 28px;
+    font-size:  16px;
+    font-weight: 400;
+    color: #3C517C;
+
+}
+
+.wallet-balance h2 {
+        line-height: 28px;
+    font-size:  36px;
+    font-weight: 600;
+    color: #3C517C;
+    margin-top: 4px;
+}
+
+.wallet-balance button {
+    padding: 17px 50px;
+    border-radius: 10px;
+    background-color: #4169E1;
+    color:#ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    /* line-height: 16px; */
+    border: #4169E1;
+}
+
+.refferal-div {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    align-items: left;
+    border-radius: 24px;
+   border: 2px solid #D7E1F4;
+   height: 148px;
+ 
+ margin-bottom: 16px;
+ 
+}
+
+.refferal-div  p {
+
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+margin-top: 4px;
+color: #3C517C;
+}
+
+.refferal-div span {
+    font-size: 16px;
+font-weight: 600;
+line-height: 28px;
+
+}
+
+.copy-div {
+    margin-top: 16px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    line-height: 28px;
+    gap: 13px;
+    font-weight: 400;
+}
+
+.referal-icon-div {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+  color:  #4169E1;
+  font-weight: 600;
+
+}
+
+.referal-icon-div img {
+    height: 19.2px;
+    width: 19.2px;
+    object-fit: cover;
+}
+
+.current-balance {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    align-items: left;
+    border-radius: 24px;
+   border: 2px solid #D7E1F4;
+   height: 152px;
+     
+}
+
+
+
+.current-balance div {
+    display: flex;
+}
+
+.total-div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.total-div p {
+    font-size: 16px;
+    font-weight: 400;
+    color:#3C517C;
+
+}
+.total-div h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #3C517C;
+    margin-top: 8px;
+}
+
+.cashout {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-weight: 400;
+    margin-top: 4px;
+    color: #4169E1;
+    font-weight: 600;
+    margin-top: 4px;
+
+}
+
+.cashimg {
+    width: 24px;
+    height: 24px;
+}
+
+.credit-card-div {
+    background: linear-gradient(353.08deg, #D7E1F4 11.66%, rgba(215, 225, 244, 0) 90.35%);
+    border-radius: 24px;
+    height: 284px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+
+
+}
+
+.credit-cards {
+    border-radius: 24px;
+}
+.cards-details div{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    /* background-color: #000080; */
+    letter-spacing: 0.02em;
+    text-align: left;
+    color:#6882B6;
+    width: 50%;
+    position: absolute;
+    left: 46px;
+    top: 53px;
+    /* padding-left: 46px; */
+}    
+.cards {
+    margin-bottom: 23px;
+    /* background-color: red; */
+}
+.cards-desc {
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 33.6px;
+letter-spacing: 0.02em;
+text-align: left;
+color:#6882B6;
+position: inherit;
+top: 80px;
+width: 162px;
+height: 68px;
+
+}
+ 
+@media screen and (min-width: 1200px) {
+.cards-div {
+    width: 90%;
+}
+    
+}
+
+@media screen and (max-width: 1100px) {
+
+    .wallet-balance h2 {
+        font-size: 25px;
+    }
+
+    .wallet-balance button {
+        font-size: 12px;
+    }
+    
+    .wallet-balance p {
+        font-size: 15px;
+    }
+
+    .cards-details div {
+        position: absolute;
+        left: 16px;
+        top: 53px;
+    }
+
+    .current-balance p {
+        font-size: 16px;
+    }
+}
