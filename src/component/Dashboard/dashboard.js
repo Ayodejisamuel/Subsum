@@ -7,6 +7,7 @@ import copy from "../../Images/copy.png";
 import avatar from "../../Images/avatar.png";
 import notificationIcon from '../../Images/notificationicon.png'
 import userIcon from '../../Images/usericon (1).png';
+import Button from "../Button/button";
 
 const Dashboard = () => {
   return (
@@ -70,7 +71,9 @@ const Dashboard = () => {
                 <button className="form-btnn" type="submit">
                   Change PIN
                 </button>
+
               </div>
+              <Button  name="showMax"/>
 
               <div className="form-containerr-div">
                 <div className="form-inner-wrapper">
