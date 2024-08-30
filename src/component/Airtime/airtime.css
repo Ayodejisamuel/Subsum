@@ -151,6 +151,9 @@ text-align: left;
   box-shadow: 0 0 0 3px rgba(65, 105, 225, 0.2);    
 }
 
+.proced-btn {
+  margin-bottom: 8px;
+}
   
   .proceed-btn {
     padding: 10px;

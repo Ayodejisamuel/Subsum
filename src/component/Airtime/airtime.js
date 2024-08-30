@@ -66,8 +66,9 @@ const Airtime = () => {
                     required
                   />
                 </div>
+<div className="proced-btn"> <Button name="Proceed" /></div>
+             
 
-              <Button name="Proceed" />
               </form>
             </div>
           </div>
