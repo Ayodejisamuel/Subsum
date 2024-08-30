@@ -18,6 +18,7 @@ const Support = () => {
         <div className="welcome-container">
           <Welcome username="Help and Support" />
           <div className="support-containerr">
+            <Welcome />
             <div className="support-div-wrapper">
               <div className="support-div">
                 <div className="icon-div">
