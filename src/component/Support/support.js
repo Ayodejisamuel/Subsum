@@ -89,7 +89,7 @@ const Support = () => {
                 <div className="frequently">
                   <p>Review  Our App</p>
                   <div className="imgfaq">
-                    <h3>Coming soon</h3>
+                    <a href="#coming-soon"><div>Coming soon</div></a>
                   
                   </div>
                 </div>

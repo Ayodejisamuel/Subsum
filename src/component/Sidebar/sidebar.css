@@ -11,13 +11,7 @@
  
     display: flex;
   }
-  
-  .login-wrapper {
-    /* display: flex;
-    width: 100%;
-    background-color: red; */
-  
-  }
+ 
   
   .login-sidebar {
     height: 100vh;

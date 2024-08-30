@@ -47,6 +47,16 @@ opacity: 0px;
     
 }
 
+.imgfaq a {
+    padding: 4px;
+    border-radius: 8px;
+    font-weight: 600;
+     background: #EFF3FB;
+     color: #4169E1;
+
+
+}
+
 .imgfaq h3 {
     font-family: Inter;
 font-size: 16px;
