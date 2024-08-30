@@ -16,12 +16,10 @@
 
  
 .welcome-wrapper {
- 
  margin-top: 16px;
     flex: 1;
     display: flex;
     gap: 20px;
-    /* width: 90%; */
 }
 
 .upload-container {
@@ -240,4 +238,12 @@ border: 1px solid rgba(215, 225, 244, 1)
 
 .submit-btn:hover {
     background: #4169;
+}
+
+@media screen  and (min-width: 1200px) { 
+
+.welcome-wrapper {
+    width: 90%;
+}
+    
 }

@@ -1,28 +1,27 @@
 import React from "react";
 import "./dashbboard.css";
-import edit from "../../Images/edit (1).png";
-import copy from "../../Images/copy.png";
-import share from "../../Images/share.png";
-import cashout from "../../Images/cashout.png";
-import creditcard from "../../Images/Credit Card 1.png";
-import notificationIcon from '../../Images/notificationicon.png'
-import userIcon from '../../Images/usericon (1).png';
 import Welcome from "../../component/Welcome/welcome";
 import Sidebar from "../../component/Sidebar/sidebar";
+import creditcard from "../../Images/Credit Card 1.png";
+import notificationIcon from "../../Images/notificationicon.png";
+import copy from "../../Images/copy.png";
+import edit from "../../Images/edit (1).png";
+import cashout from "../../Images/cashout.png";
+import share from "../../Images/share.png";
+import userIcon from "../../Images/usericon (1).png";
 
 const Dashbboard = () => {
   return (
     <div className="containerr">
       <Sidebar />
       <div className="login-wrapper">
-       
-
         <div className="welcome-container">
-          <Welcome 
-          notificationIcon={notificationIcon} 
-        userIcon={userIcon}
-          showUpgrade={true}  
-          username="Welcome, Lawal Wahab" />
+          <Welcome
+            notificationIcon={notificationIcon}
+            userIcon={userIcon}
+            showUpgrade={true}
+            username="Welcome, Lawal Wahab"
+          />
           <div className="cards-div">
             <div className="wallet-div">
               <div className="wallet-balance">
@@ -71,11 +70,10 @@ const Dashbboard = () => {
                   </div>
                 </div>
                 <a href="ww">
-              
                   <div className="cashout">
                     <img className="cashimg" alt="cashout" src={cashout}></img>
                     <span>Cashout</span>
-                  </div>{" "}
+                  </div>
                 </a>
               </div>
             </div>
@@ -99,4 +97,4 @@ const Dashbboard = () => {
   );
 };
 
-export default Dashbboard;;
+export default Dashbboard;
