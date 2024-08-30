@@ -1,7 +1,7 @@
 import React from "react";
 import "./support.css";
-import Sidebar from "../Sidebar/sidebar";
-import Welcome from "../Welcome/welcome";
+import Sidebar from "../../component/Sidebar/sidebar";
+import Welcome from "../../component/Welcome/welcome";
 import whatsapp from "../../Images/whatsapp.png";
 import forwardarrow from "../../Images/forward.png";
 import snapchat from "../../Images/snapchat.png";

@@ -1,12 +1,10 @@
 import './App.css';
-import Login from './component/Login/login';
- import Dashboard from './component/Dashboard/dashboard';
- import Airtime from './component/Airtime/airtime';
- import Support from './component/Support/support';
- import Transanction from './component/Transaction/transaction';
- import Dashbboard from './component/Dashbboard/dashbboard';
- 
- 
+import Login from './Pages/Login/login'
+import Dashbboard from './Pages/Dashbboard/dashbboard'
+import Dashboard from './Pages/Dashboard/dashboard';
+import Airtime from './Pages/Airtime/airtime';
+import Support from './Pages/Support/support';
+// import Transanction from './Pages/Transanction/transanction';
 
 function App() {
   return (
@@ -17,7 +15,7 @@ function App() {
        < Dashboard />
        <Airtime />
        <Support />
-       <Transanction/>
+       {/* <Transanction/> */}
        
     </div>
   );

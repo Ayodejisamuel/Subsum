@@ -1,7 +1,7 @@
 import React from "react";
 import './transaction.css'
-import Welcome from "../Welcome/welcome";
-import Sidebar from "../Sidebar/sidebar";
+import Welcome from "../../component/Welcome/welcome";
+import Sidebar from "../../component/Sidebar/sidebar";
 
 
 const Transaction = () => {  

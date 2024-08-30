@@ -7,8 +7,8 @@ import cashout from "../../Images/cashout.png";
 import creditcard from "../../Images/Credit Card 1.png";
 import notificationIcon from '../../Images/notificationicon.png'
 import userIcon from '../../Images/usericon (1).png';
-import Welcome from "../Welcome/welcome";
-import Sidebar from "../Sidebar/sidebar";
+import Welcome from "../../component/Welcome/welcome";
+import Sidebar from "../../component/Sidebar/sidebar";
 
 const Dashbboard = () => {
   return (

@@ -1,10 +1,10 @@
 import React from "react";
 import "./airtime.css";
-import Sidebar from "../Sidebar/sidebar";
-import Welcome from "../Welcome/welcome";
+import Sidebar from "../../component/Sidebar/sidebar";
+import Welcome from "../../component/Welcome/welcome";
 import notificationIcon from '../../Images/notificationicon.png'
 import userIcon from '../../Images/usericon (1).png';
-import Button from "../Button/button";
+import Button from "../../component/Button/button";
 
 const Airtime = () => {
   return (

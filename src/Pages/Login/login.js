@@ -1,7 +1,7 @@
 import React from "react";
 import "./login.css";
-import Welcome from "../Welcome/welcome";
-import Button from "../Button/button";
+import Welcome from "../../component/Welcome/welcome";
+import Button from "../../component/Button/button";
 import logo from "../../Images/logo (2).png";
 import dashboard from "../../Images/dashboard-icon.png";
 import headphone from "../../Images/headphone.png";

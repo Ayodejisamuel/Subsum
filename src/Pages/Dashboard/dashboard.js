@@ -1,13 +1,13 @@
 import React from "react";
 import "./dashboard.css";
-import Sidebar from "../Sidebar/sidebar";
-import Welcome from "../Welcome/welcome";
+import Sidebar from "../../component/Sidebar/sidebar";
+import Welcome from "../../component/Welcome/welcome";
 import photo from "../../Images/photo.png";
 import copy from "../../Images/copy.png";
 import avatar from "../../Images/avatar.png";
 import notificationIcon from '../../Images/notificationicon.png'
 import userIcon from '../../Images/usericon (1).png';
-import Button from "../Button/button";
+import Button from "../../component/Button/button";
 
 const Dashboard = () => {
   return (
@@ -104,6 +104,7 @@ const Dashboard = () => {
                     placeholder="Confirm new password"
                     required
                   ></input>
+                  
                   <Button  name="Submit"/>
                 </form>
                 </div>
