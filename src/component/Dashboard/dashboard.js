@@ -73,12 +73,12 @@ const Dashboard = () => {
                 </button>
 
               </div>
-              <Button  name="showMax"/>
+      
 
-              <div className="form-containerr-div">
-                <div className="form-inner-wrapper">
+              <div className="for">
+                <div className="for">
                 <form>
-                  <label for="current-password">Current Password</label>
+                  <label for="curre">Current Password</label>
                   <input
                     type="password"
                     id="current-password"
@@ -86,7 +86,7 @@ const Dashboard = () => {
                     placeholder="Enter current password"
                     required
                   ></input>
-
+        <Button  name="showMax"/>
                   <label for="new-password">New Password</label>
                   <input
                     type="password"
@@ -105,7 +105,7 @@ const Dashboard = () => {
                     required
                   ></input>
 
-                  <button className="submit-btn" type="submit">Submit</button>
+                  <button className="submit-btnn" type="submit">Submit</button>
                 </form>
                 </div>
                 
