@@ -2,10 +2,11 @@ import React from "react";
 import "./sidebar.css";
 import logo from "../../Images/logo (2).png";
 import dashboard from "../../Images/dashboard-icon.png";
- import mtn from '../../Images/Networks.png';
-import airtel from '../../Images/Networks (1).png';
 import etisalat from "../../Images/etisalat.png";
-import Network from '../Network/network';
+import mtn from '../../Images/mtn.png';
+import airtel from '../../Images/airtel.png';
+import Network from '../../component/Network/network'
+
 import {
   FaChevronDown,
   FaWifi,
