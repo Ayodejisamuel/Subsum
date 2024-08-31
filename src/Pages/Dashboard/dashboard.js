@@ -11,7 +11,7 @@ import Button from "../../component/Button/button";
 
 const Dashboard = () => {
   return (
-    <div className="containerr">
+    <div id="dashboard" className="containerr">
       <Sidebar />
       <div className="welcome-container">
         <Welcome 

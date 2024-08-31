@@ -12,7 +12,7 @@ import userIcon from "../../Images/usericon (1).png";
 
 const Dashbboard = () => {
   return (
-    <div className="containerr">
+    <div id="dashboard" className="containerr">
       <Sidebar />
       <div className="login-wrapper">
         <div className="welcome-container">
