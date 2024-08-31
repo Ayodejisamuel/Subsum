@@ -2,9 +2,22 @@ import React from "react";
 import "./sidebar.css";
 import logo from "../../Images/logo (2).png";
 import dashboard from "../../Images/dashboard-icon.png";
- 
+
 import Network from "../Network/network";
-import {  FaChevronDown, FaWifi, FaSignOutAlt, FaHeadset, FaPhone, FaBook,  FaTv, FaBolt, FaSync } from 'react-icons/fa';
+import {
+  FaChevronDown,
+  FaWifi,
+  FaSignOutAlt,
+  FaHeadset,
+  FaPhone,
+  FaBook,
+  FaTv,
+  FaBolt,
+  FaSync,
+} from "react-icons/fa";
+
+
+
 
 const Sidebar = ({ isAirtimeTrue }) => {
   return (
@@ -21,7 +34,8 @@ const Sidebar = ({ isAirtimeTrue }) => {
           <div className="buydiv-container">
             <a href="#buy-airtime" className="buydiv">
               <div className="flex-div">
-                <FaPhone style={{ transform: 'rotate(90deg)' }} /> <span>Buy Airtime</span>
+                <FaPhone style={{ transform: "rotate(90deg)" }} />{" "}
+                <span>Buy Airtime</span>
               </div>
               <FaChevronDown />
             </a>
@@ -57,7 +71,7 @@ const Sidebar = ({ isAirtimeTrue }) => {
           <div className="buydiv-container">
             <a href="#airtime-to-cash" className="buydiv">
               <div className="flex-div">
-              <FaSync />
+                <FaSync />
                 <span>Airtime to Cash</span>
               </div>
               <FaChevronDown />
@@ -74,6 +88,7 @@ const Sidebar = ({ isAirtimeTrue }) => {
             </a>
           </div>
 
+
           <div className="buydiv-container">
             <a href="#help-support" className="buydiv">
               <div className="flex-div">
@@ -82,6 +97,7 @@ const Sidebar = ({ isAirtimeTrue }) => {
             </a>
           </div>
         </div>
+
 
         <div className="logout-container lognow">
           <a href="#logout" className="buydiv">

@@ -18,7 +18,7 @@ import userIcon from "../../Images/usericon (1).png";
 const Support = () => {
   
   return (
-    <div className="containerr">
+    <div id="help-support" className=" containerr">
       <Sidebar />
       <div className="login-wrapper">
         <div className="welcome-container">
