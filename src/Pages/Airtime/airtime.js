@@ -9,7 +9,9 @@ import Button from "../../component/Button/button";
 const Airtime = () => {
   return (
     <div id="airtime-to-cash" className="containerr">
-      <Sidebar isAirtimeTrue={true} />
+      <Sidebar isAirtimeTrue={true}  
+      
+      />
       <div className="login-wrapper">
         <div className="welcome-container">
           <Welcome

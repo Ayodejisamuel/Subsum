@@ -2,8 +2,10 @@ import React from "react";
 import "./sidebar.css";
 import logo from "../../Images/logo (2).png";
 import dashboard from "../../Images/dashboard-icon.png";
-
-import Network from "../Network/network";
+ import mtn from '../../Images/Networks.png';
+import airtel from '../../Images/Networks (1).png';
+import etisalat from "../../Images/etisalat.png";
+import Network from '../Network/network';
 import {
   FaChevronDown,
   FaWifi,
@@ -78,7 +80,9 @@ const Sidebar = ({ isAirtimeTrue }) => {
             </a>
           </div>
 
-          {isAirtimeTrue && <Network />}
+          {isAirtimeTrue && <Network  mtn={mtn}
+          etisalat={etisalat}
+          airtel={airtel} />}
 
           <div className="buydiv-container">
             <a href="#transaction-history" className="buydiv">
