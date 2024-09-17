@@ -5,7 +5,7 @@ import Dashboard from './Pages/Dashboard/dashboard';
 import Airtime from './Pages/Airtime/airtime';
 import Support from './Pages/Support/support';
 // import Transanction from './Pages/Transanction/transanction';
-import Transaction from './Pages/Transaction/transaction';
+// import Transaction from './Pages/Transaction/transaction';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
        <Dashbboard />
        < Dashboard />
        <Airtime />
-       <Transaction />
+       // <Transaction />
        <Support />
       
        {/* <Transanction/> */}
